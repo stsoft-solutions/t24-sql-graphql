@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sts.T24.GraphQL.Core", "Sts.T24.GraphQL.Core\Sts.T24.GraphQL.Core.csproj", "{3E46B037-6B54-40A4-8F29-23780DF341DA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sts.T24.GraphQL.SourceGenerator", "Sts.T24.GraphQL.SourceGenerator\Sts.T24.GraphQL.SourceGenerator.csproj", "{820D12CC-E58C-4AA9-9B63-88CA50EDD336}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sts.T24.GraphQL", "Sts.T24.GraphQL\Sts.T24.GraphQL.csproj", "{729546E0-0FB6-4343-94CB-830F1927C076}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{34EBAC9A-172B-46B3-AC55-3986A8A29FCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sts.T24.GraphQL.Core.Tests", "tests\Sts.T24.GraphQL.Core.Tests\Sts.T24.GraphQL.Core.Tests.csproj", "{EDD8475E-F9E4-4833-8E90-1359009449F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E46B037-6B54-40A4-8F29-23780DF341DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E46B037-6B54-40A4-8F29-23780DF341DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E46B037-6B54-40A4-8F29-23780DF341DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E46B037-6B54-40A4-8F29-23780DF341DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820D12CC-E58C-4AA9-9B63-88CA50EDD336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820D12CC-E58C-4AA9-9B63-88CA50EDD336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820D12CC-E58C-4AA9-9B63-88CA50EDD336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820D12CC-E58C-4AA9-9B63-88CA50EDD336}.Release|Any CPU.Build.0 = Release|Any CPU
+		{729546E0-0FB6-4343-94CB-830F1927C076}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{729546E0-0FB6-4343-94CB-830F1927C076}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{729546E0-0FB6-4343-94CB-830F1927C076}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{729546E0-0FB6-4343-94CB-830F1927C076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDD8475E-F9E4-4833-8E90-1359009449F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDD8475E-F9E4-4833-8E90-1359009449F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDD8475E-F9E4-4833-8E90-1359009449F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDD8475E-F9E4-4833-8E90-1359009449F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EDD8475E-F9E4-4833-8E90-1359009449F7} = {34EBAC9A-172B-46B3-AC55-3986A8A29FCA}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {14C5398F-3E29-4B56-9915-3F67C687EDC6}
+	EndGlobalSection
+EndGlobal
