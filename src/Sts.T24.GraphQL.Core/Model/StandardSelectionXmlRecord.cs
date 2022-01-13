@@ -3,8 +3,9 @@ using System.Xml.Serialization;
 
 namespace Sts.T24.GraphQL.Core.Model
 {
+    [Serializable]
     [XmlRoot("row")]
-    public class StandardSelectionXmlRecord
+    public sealed class StandardSelectionXmlRecord : T24XmlRecord
     {
         [XmlElement(ElementName = "c1")]
         public T24XmlStringField[] Names { get; set; } = Array.Empty<T24XmlStringField>();
@@ -20,8 +21,5 @@ namespace Sts.T24.GraphQL.Core.Model
 
         [XmlElement(ElementName = "c10")]
         public T24XmlStringField[] MultiValueTypes { get; set; } = Array.Empty<T24XmlStringField>();
-
-        [XmlAttribute("id")]
-        public string Id { get; set; }
     }
 }

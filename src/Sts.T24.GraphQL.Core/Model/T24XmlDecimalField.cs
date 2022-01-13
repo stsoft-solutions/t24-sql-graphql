@@ -1,18 +1,12 @@
-﻿using System.Diagnostics;
-using System.Xml.Serialization;
+﻿using System;
+using System.Diagnostics;
 
 namespace Sts.T24.GraphQL.Core.Model
 {
     [DebuggerDisplay("{Value} (m:{MultiValueIndex}, s:{SubValueIndex})")]
-    public sealed class T24XmlDecimalField 
+    [Serializable]
+    public sealed class T24XmlDecimalField : T24XmlGenericField<decimal, decimal>
     {
-        [XmlText]
-        public decimal Value { get; set; }
-
-        [XmlAttribute("m")]
-        public int MultiValueIndex { get; set; } = 1;
-
-        [XmlAttribute("s")]
-        public int SubValueIndex { get; set; } = 1;
+        public static T24XmlDecimalField Empty { get; } = new T24XmlDecimalField {IsValueExist = false};
     }
 }

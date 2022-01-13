@@ -3,7 +3,7 @@ using Microsoft.CodeAnalysis;
 
 namespace Sts.T24.GraphQL.SourceGenerator
 {
-    public class T24GraphQlSourceGenerator:ISourceGenerator
+    public class T24GraphQlSourceGenerator : ISourceGenerator
     {
         #region Implementation of ISourceGenerator
 

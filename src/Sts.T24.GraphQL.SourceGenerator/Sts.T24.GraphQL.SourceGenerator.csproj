@@ -12,4 +12,8 @@
     <PackageReference Include="Microsoft.CodeAnalysis.CSharp" Version="4.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Sts.T24.GraphQL.Core\Sts.T24.GraphQL.Core.csproj" />
+  </ItemGroup>
+
 </Project>
