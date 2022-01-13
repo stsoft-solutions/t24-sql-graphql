@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
 
   <ItemGroup>
@@ -13,7 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Sts.T24.GraphQL.Core\Sts.T24.GraphQL.Core.csproj" />
+    <ProjectReference Include="..\Sts.T24.GraphQL.Core\Sts.T24.GraphQL.Core.csproj" GeneratePathProperty="true" PrivateAssets="all" />
   </ItemGroup>
 
 </Project>

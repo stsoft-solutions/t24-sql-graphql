@@ -10,4 +10,16 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
+  <ItemGroup>
+    <!-- Attach source generator -->
+    <ProjectReference Include="..\Sts.T24.GraphQL.SourceGenerator\Sts.T24.GraphQL.SourceGenerator.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false" />
+    <!-- Attach source generator reference project -->
+    <ProjectReference Include="..\Sts.T24.GraphQL.Core\Sts.T24.GraphQL.Core.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="true"/>
+  </ItemGroup>
+
+  <!-- Source generator aditional files -->
+  <ItemGroup>
+    <AdditionalFiles Include=".\StandardSelection\dbi_ss.xml" />
+  </ItemGroup>
+
 </Project>
