@@ -417,20 +417,20 @@ public class XmlDeserializationTests
               <c13 m=""2"">100000.00</c13>
               <c14>EUR</c14>
               <c14 m=""2"">EUR</c14>
-              <c15>PYI 1,10%, 24 month(s), 100000,00 EUR,FDA\x5F111\x5F300\x5F001\x5F589,Bernd-Roland Robert Offenbacher</c15>
-              <c15 m=""2"">PYI 1,10 , 24 month(s), 100000,00 EUR,FDA 111 300 001 589,Bernd-Roland Robert Offenbacher</c15>
+              <c15>PYI 1,10%, 24 month(s), 100000,00 EUR,FDA\x5F111\x5F300\x5F001\x5F589,</c15>
+              <c15 m=""2"">PYI 1,10 , 24 month(s), 100000,00 EUR,FDA 111 300 001 589,</c15>
               <c16 m=""2"">FT1814931161</c16>
               <c17>20180529</c17>
               <c18>20200528</c18>
               <c22>24Month</c22>
               <c29>11</c29>
               <c30>583_INPUTTER_A_</c30>
-              <c30 m=""2"">41_RCBBIZTALK_I_INAU_OFS_TWS.DBI</c30>
+              <c30 m=""2"">41_BIZTALK_I_INAU_OFS_TWS.DBI</c30>
               <c31>2005272147</c31>
               <c31 m=""2"">2005240415</c31>
               <c31 m=""3"">2005240415</c31>
-              <c32>41_RCBBIZTALK_OFS_TWS.DBI</c32>
-              <c33>LU0010001</c33>
+              <c32>41_BIZTALK_OFS_TWS.DBI</c32>
+              <c33>COMPANYCODE</c33>
               <c34>18</c34>
             </row>
         ";
