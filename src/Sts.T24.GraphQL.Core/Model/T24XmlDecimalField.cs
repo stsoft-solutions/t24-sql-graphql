@@ -7,6 +7,5 @@ namespace Sts.T24.GraphQL.Core.Model
     [Serializable]
     public sealed class T24XmlDecimalField : T24XmlGenericField<decimal, decimal>
     {
-        public static T24XmlDecimalField Empty { get; } = new T24XmlDecimalField {IsValueExist = false};
     }
 }

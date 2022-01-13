@@ -18,7 +18,7 @@ public class DbiFakeXmlRecord : T24XmlRecord
     public T24XmlDecimalField Rate { get; set; } = T24XmlField.Empty<T24XmlDecimalField>();
 
     [XmlElement(ElementName = "c10")]
-    public T24XmlDateField ValueDate { get; set; } = T24XmlDateField.Empty;
+    public T24XmlDateField ValueDate { get; set; } = T24XmlField.Empty<T24XmlDateField>();
 
     [XmlElement(ElementName = "c13")]
     public T24XmlDecimalField[] PyiAmount { get; set; } = Array.Empty<T24XmlDecimalField>();
